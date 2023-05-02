@@ -1,0 +1,39 @@
+# Build Folders (bin, obj)
+bin/
+obj/
+
+# Visual Studio files
+*.suo
+*.user
+*.sln.docstates
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# MSTest test Results
+TestResults/
+
+# Build Results
+[Bb]uild/
+
+# Resharper files
+_ReSharper.*
+
+# GhostDoc
+~/.gho
+
+# Windows Image File Cache
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.csproj.user
+
+# Windows Temp Files
+[Tt]humbs.db
+*~
+*.swp
