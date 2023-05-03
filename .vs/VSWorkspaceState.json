@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\map-gpt",
-    "\\map-gpt\\Controllers",
-    "\\map-gpt\\Models",
-    "\\map-gpt\\Services"
+    ""
   ],
+  "SelectedNode": "\\map-gpt-backend.sln",
   "PreviewInSolutionExplorer": false
 }

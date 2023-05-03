@@ -1,10 +1,8 @@
-using Microsoft.AspNetCore.Mvc;
-
-namespace map_gpt.Controllers
+namespace map_chat_wpf.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ChatController : ControllerBase
+    public class MessagesController : ControllerBase
     {
         [HttpGet]
         public string Get()
@@ -27,7 +25,7 @@ namespace map_gpt.Controllers
 
         private readonly NaturalLanguageService naturalLanguageService;
 
-        public ChatController(NaturalLanguageService naturalLanguageService)
+        public MessagesController(NaturalLanguageService naturalLanguageService)
         {
             this.naturalLanguageService = naturalLanguageService;
         }

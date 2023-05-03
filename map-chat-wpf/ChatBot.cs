@@ -1,24 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ChatGPT.Net;
 
 namespace map_chat_wpf
 {
     public class ChatBot
     {
-        private readonly ChatGPT _chatGPT;
+        private readonly NaturalLanguageService _naturalLanguageService;
         private string _message;
         public event EventHandler<MessageEventArgs> OnMessageReceived;
 
-        public ChatBot()
+        public ChatBot(NaturalLanguageService naturalLanguageService)
         {
-            // Create a new instance of the ChatGPT class.
-            _chatGPT = new ChatGPT();
-
-            // Initialize the Message property.
+            _naturalLanguageService = naturalLanguageService;
             _message = "";
         }
 
@@ -31,20 +23,34 @@ namespace map_chat_wpf
         public void Start()
         {
             // Listen for messages from the user.
-            _chatGPT.OnMessageReceived += OnMessageReceived;
-
-            // Start listening for messages.
-            _chatGPT.StartListening();
+            OnMessageReceived += HandleMessageReceived;
         }
 
-        private void OnMessageReceived(object sender, MessageEventArgs eventArgs)
+        private void HandleMessageReceived(object sender, MessageEventArgs eventArgs)
         {
             // Get the message from the user.
             string message = eventArgs.Message;
 
-            // Respond to the message.
-            _chatGPT.Respond(message);
+            // Process the message with the natural language service.
+            string response = _naturalLanguageService.ProcessMessage(message);
+
+            // Take any necessary actions based on the response.
+            if (response.Contains("show points"))
+            {
+                // Update the map display to show relevant points.
+                UpdateMapDisplay();
+            }
+
+            // Raise an event to notify any subscribers of the response.
+            OnResponseReceived(this, new MessageEventArgs(response));
         }
+
+        private void UpdateMapDisplay()
+        {
+            // Code to update the map display goes here.
+        }
+
+        public event EventHandler<MessageEventArgs> OnResponseReceived;
     }
 
     public class MessageEventArgs : EventArgs
