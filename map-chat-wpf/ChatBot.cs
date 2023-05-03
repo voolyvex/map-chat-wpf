@@ -6,7 +6,9 @@ namespace map_chat_wpf
     {
         private readonly NaturalLanguageService _naturalLanguageService;
         private string _message;
+
         public event EventHandler<MessageEventArgs> OnMessageReceived;
+        public event EventHandler<MessageEventArgs> OnResponseReceived;
 
         public ChatBot(NaturalLanguageService naturalLanguageService)
         {
@@ -26,11 +28,8 @@ namespace map_chat_wpf
             OnMessageReceived += HandleMessageReceived;
         }
 
-        private void HandleMessageReceived(object sender, MessageEventArgs eventArgs)
+        public void SendMessage(string message)
         {
-            // Get the message from the user.
-            string message = eventArgs.Message;
-
             // Process the message with the natural language service.
             string response = _naturalLanguageService.ProcessMessage(message);
 
@@ -45,16 +44,28 @@ namespace map_chat_wpf
             OnResponseReceived(this, new MessageEventArgs(response));
         }
 
+        private void HandleMessageReceived(object sender, MessageEventArgs eventArgs)
+        {
+            // Get the message from the user.
+            string message = eventArgs.Message;
+
+            // Send the message to the natural language service.
+            SendMessage(message);
+        }
+
         private void UpdateMapDisplay()
         {
             // Code to update the map display goes here.
         }
-
-        public event EventHandler<MessageEventArgs> OnResponseReceived;
     }
 
     public class MessageEventArgs : EventArgs
     {
+        public MessageEventArgs(string message)
+        {
+            Message = message;
+        }
+
         public string Message { get; set; }
     }
 }
