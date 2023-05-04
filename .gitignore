@@ -37,3 +37,6 @@ Desktop.ini
 [Tt]humbs.db
 *~
 *.swp
+
+# app settings
+map-chat-wpf/appsettings.json

@@ -1,0 +1,2050 @@
+[
+  {
+    "id": "a68bc3ad-cafe-4cb8-9dd2-f14bdb2e3d84",
+    "data": [
+      {
+        "text": "where I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8968bc8e-e662-4454-867a-0d0027420a0d",
+    "data": [
+      {
+        "text": "where is my ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": true
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "159ce54f-1da3-4b37-ace1-e710a917a56c",
+    "data": [
+      {
+        "text": "find where am I",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b047f916-b585-4266-ba6e-1d822ded94a0",
+    "data": [
+      {
+        "text": "I want to know my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e93292ed-b298-4678-8710-5f7c4b227e95",
+    "data": [
+      {
+        "text": "tell me where I am ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "673001e9-82a4-42e3-adef-fe0b67633e41",
+    "data": [
+      {
+        "text": "what is our ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": false
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b63474b1-347e-4ef0-81a3-517e3b09897a",
+    "data": [
+      {
+        "text": "show me ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "userDefined": false
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2dc8d346-63ea-482e-a3a1-66bfda4014a4",
+    "data": [
+      {
+        "text": "find my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2401e07e-aa60-4c99-aea7-b192364ceead",
+    "data": [
+      {
+        "text": "find me ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "map",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0beacd06-3dd7-4448-a93a-b824af0ebe05",
+    "data": [
+      {
+        "text": "can you tell me where I am ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5ecc9203-f1df-4d1e-abe5-f5a5a2b2acb2",
+    "data": [
+      {
+        "text": "where am I at the moment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68237d0c-ccee-466b-80bb-37ce85a84ba6",
+    "data": [
+      {
+        "text": "please tell me my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6778007a-1356-43bc-9fc2-b270fcdcd46c",
+    "data": [
+      {
+        "text": "show me my location ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70505ad8-45ca-432b-bab4-f35a79681ae6",
+    "data": [
+      {
+        "text": "I",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "am",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lost",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "93c254d5-531c-4271-9a0c-5030f99c4417",
+    "data": [
+      {
+        "text": "show my ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": true
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "901ccfb7-8d9f-4fc8-aca3-650ffa964c51",
+    "data": [
+      {
+        "text": "do you know where I\u0027m at",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "752793d7-dd8c-4113-b50c-1428b5b4a3ee",
+    "data": [
+      {
+        "text": "find my position",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "00166244-7979-4f1b-8704-d8625b5bc789",
+    "data": [
+      {
+        "text": "tell my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ac1e7401-d31b-4e93-8e45-5b9188014eb6",
+    "data": [
+      {
+        "text": "can you find my ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": false
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a03a5351-4619-4b37-b200-cdfa256156c4",
+    "data": [
+      {
+        "text": "find out my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2ed6b877-9ebf-48be-99a5-78c3fe6a5e4d",
+    "data": [
+      {
+        "text": "please locate me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5ef9acdd-9dc4-49f3-b1d2-883385f851bb",
+    "data": [
+      {
+        "text": "where\u0027s my location now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f7ff94da-57e3-418d-bf19-de10cb573e91",
+    "data": [
+      {
+        "text": "where\u0027s my position",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4bff9f23-f671-4fa9-90d4-1316efe3481d",
+    "data": [
+      {
+        "text": "﻿what\u0027s my current location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b510ab54-9e3b-459a-af50-fdb1fdbb63dd",
+    "data": [
+      {
+        "text": "where I ",
+        "userDefined": false
+      },
+      {
+        "text": "am",
+        "userDefined": false
+      },
+      {
+        "text": " I got lost help ",
+        "userDefined": false
+      },
+      {
+        "text": "me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78046311-9986-4413-b168-c9db72cda809",
+    "data": [
+      {
+        "text": "tell",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "me",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "my current",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dcd4d784-4190-4683-ad1d-00dbe87a879b",
+    "data": [
+      {
+        "text": "my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "08d6d13f-b3b8-48ac-bb43-eb1fe5deaa95",
+    "data": [
+      {
+        "text": "where am I located",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3412b4e-11d7-45c8-bc7a-bd6305bfa384",
+    "data": [
+      {
+        "text": "can you show me my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "86c1b035-051e-4ca4-bbe4-42272f7ed02e",
+    "data": [
+      {
+        "text": "my location please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "14d77e63-8bc2-4df9-9f60-75c82c855fa2",
+    "data": [
+      {
+        "text": "show me ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "map",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70bbb455-28dd-41d7-9b43-35999eb8d630",
+    "data": [
+      {
+        "text": "where is my location now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4dc87c14-46b2-4e49-b4d9-73f45cffb7b0",
+    "data": [
+      {
+        "text": "can you show me where I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "38ce74e1-110c-4662-8148-cf15b3f0cf72",
+    "data": [
+      {
+        "text": "find ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": false
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "160f2686-4715-4357-bf35-eee9bd61ab1b",
+    "data": [
+      {
+        "text": "do you have my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fd2c77cc-660a-457e-8099-fe1952c21f93",
+    "data": [
+      {
+        "text": "can you locate where am I",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ded61788-07a1-40e8-8f10-0f1605cc7e50",
+    "data": [
+      {
+        "text": "find ",
+        "userDefined": false
+      },
+      {
+        "text": "me",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "userDefined": false
+      },
+      {
+        "text": " the map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ab7d6980-9fc5-4a66-a94e-7c250e90fb83",
+    "data": [
+      {
+        "text": "locate me ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "map",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5a12dd77-f44f-487b-81b2-ddbcae68207c",
+    "data": [
+      {
+        "text": "do you know where I am now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aad01fcf-adf9-4fb8-a1fd-ad3f76e6e10e",
+    "data": [
+      {
+        "text": "can you tell me my ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": false
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8cda0bf-fcfb-44e9-a0f0-bc953c319ce9",
+    "data": [
+      {
+        "text": "where my location now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dab803a8-4476-455a-a051-746d47fc5056",
+    "data": [
+      {
+        "text": "what city am I in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "88a8c6f9-8c9f-4e06-a7b6-2bb6ce1a13db",
+    "data": [
+      {
+        "text": "show me where I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b363c57-9dcd-4707-b094-ac501f163036",
+    "data": [
+      {
+        "text": "where am I located at",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e4e8b228-8b0c-489e-9367-7df354563b78",
+    "data": [
+      {
+        "text": "can you find my location now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ddb56aae-9d60-421e-bcb7-fe9bd65237ee",
+    "data": [
+      {
+        "text": "what is my ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": false
+      },
+      {
+        "text": " position",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "65fab81a-5de3-48b9-bd92-3a9a2e43a1f5",
+    "data": [
+      {
+        "text": "tell me where I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c9a0f0f-d248-454f-8343-0b4a73fb9c1b",
+    "data": [
+      {
+        "text": "what\u0027s",
+        "userDefined": true
+      },
+      {
+        "text": " my ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": true
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ef54ea4-2fbd-459e-b533-aa7062835444",
+    "data": [
+      {
+        "text": "can you locate me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd0f9ceb-cad4-4a08-a754-2c086f2869f1",
+    "data": [
+      {
+        "text": "what is my location ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8ca6527d-8305-4a7c-a3df-3bd5cafbd32d",
+    "data": [
+      {
+        "text": "I need my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d57a4175-f2ef-4984-a8be-b72aa47133cb",
+    "data": [
+      {
+        "text": "can you find where I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "663efbb5-f174-4354-b307-3a5ac977be25",
+    "data": [
+      {
+        "text": "show me my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b067f499-0155-49ac-9551-550215b2852e",
+    "data": [
+      {
+        "text": "where I am now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "90183541-ba34-45ce-a9c9-895462bd95a6",
+    "data": [
+      {
+        "text": "search my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0535118d-bf7f-4b85-8661-2aef47653840",
+    "data": [
+      {
+        "text": "can you find my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "237cacbf-7be4-433d-9c79-c03a98f81c4e",
+    "data": [
+      {
+        "text": "find me ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "map",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dd594fc1-d3e7-4f13-954f-e073892568c8",
+    "data": [
+      {
+        "text": "where ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "userDefined": true
+      },
+      {
+        "text": " we now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "edf3df25-5789-44f1-8139-62d7a2860b70",
+    "data": [
+      {
+        "text": "do you know where am I",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "41a5b8cd-08cc-470d-bbf7-3b7d9f5af227",
+    "data": [
+      {
+        "text": "what is the location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "95af4e08-7f9c-4664-af3c-2f325754a10c",
+    "data": [
+      {
+        "text": "what town am I in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8863ac73-27f0-4982-a5f7-b3311bb4784e",
+    "data": [
+      {
+        "text": "find me where I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74987d5b-0880-4d8c-97fd-5c72552dae2d",
+    "data": [
+      {
+        "text": "what the ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9199e2bd-41d6-42c9-9d82-2566e867d63c",
+    "data": [
+      {
+        "text": "what is my location now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e3cc3e54-a192-42ae-b80d-c302b04d7c71",
+    "data": [
+      {
+        "text": "where ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "userDefined": true
+      },
+      {
+        "text": " we ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4abed1b7-abd9-4330-b1e4-38826c2b86b1",
+    "data": [
+      {
+        "text": "find my location please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3c1d91b-9058-481e-9ee7-f721a414e3af",
+    "data": [
+      {
+        "text": "did you find my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb1700b7-fdf2-4462-9e22-c567b1ffe8ec",
+    "data": [
+      {
+        "text": "I want to know where I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d92f9dd4-efce-4559-b08c-45d5dddc32eb",
+    "data": [
+      {
+        "text": "locate me please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c57981bb-20ab-4914-a7f4-f12ef61efb5e",
+    "data": [
+      {
+        "text": "me",
+        "userDefined": false
+      },
+      {
+        "text": " on the map ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79c75dfe-01e5-44d0-820d-60628e9f65d5",
+    "data": [
+      {
+        "text": "locate me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a2cd0112-b9d3-48a5-9a67-d33aed258c4b",
+    "data": [
+      {
+        "text": "what is my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e6c4feeb-4672-49fb-a362-460ea5e70a98",
+    "data": [
+      {
+        "text": "can you tell me my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd9dc49b-758a-486b-b6d7-f7c507682dc9",
+    "data": [
+      {
+        "text": "can you search my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3fb845c3-92a4-4d3a-ab0b-1995ba9f4b14",
+    "data": [
+      {
+        "text": "do you know where am I now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4d2d1879-0190-4bf6-a74a-a674a1364745",
+    "data": [
+      {
+        "text": "show me in the ",
+        "userDefined": false
+      },
+      {
+        "text": "map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e0e795b-bd9b-482d-89c2-b00e7b24ff85",
+    "data": [
+      {
+        "text": "what\u0027s my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "370cfec3-e630-4bd8-83a9-6c90a4dad006",
+    "data": [
+      {
+        "text": "can",
+        "userDefined": false
+      },
+      {
+        "text": " you show the map at my ",
+        "userDefined": false
+      },
+      {
+        "text": "stay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2ec4b909-5cf1-41cc-b97b-a442d388b5a9",
+    "data": [
+      {
+        "text": "where is my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45a3b999-2216-4628-814d-9df87761975a",
+    "data": [
+      {
+        "text": "search for my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "32eb2a14-133b-4776-b4c1-a975471fbde2",
+    "data": [
+      {
+        "text": "what\u0027s",
+        "userDefined": true
+      },
+      {
+        "text": " my location now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c79126c9-3ddc-4fde-91a4-6a551687d007",
+    "data": [
+      {
+        "text": "can you tell me where I am now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3194e40f-3a02-443b-a39a-82a13561dee0",
+    "data": [
+      {
+        "text": "look for my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1049edac-b149-4c83-bb1c-1dd9c3a1de28",
+    "data": [
+      {
+        "text": "where am I",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "905aac1d-7787-4a87-9738-803cd41a4823",
+    "data": [
+      {
+        "text": "find me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "efd09d37-5045-4be0-aec0-15b8ac230e9d",
+    "data": [
+      {
+        "text": "where am I ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c8ab96b-3ede-4ab2-a551-65ab5e158263",
+    "data": [
+      {
+        "text": "where I am ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7d2a0e36-acf2-4e2c-83f2-4c2f4ced38a6",
+    "data": [
+      {
+        "text": "where am I at ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f3d75188-8e6d-4730-a9ce-8d7639d7460b",
+    "data": [
+      {
+        "text": "current",
+        "userDefined": true
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3d06da8e-7f78-45c8-b9be-8728b12dc094",
+    "data": [
+      {
+        "text": "tell me my ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": true
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bdfc05be-6432-47f9-81d1-1641255e97c2",
+    "data": [
+      {
+        "text": "locate my position",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fe821002-41af-4537-b7bb-0022dc7b89a8",
+    "data": [
+      {
+        "text": "can you tell me where am I",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c38041ec-2fb3-4c57-a582-8017ae866d7a",
+    "data": [
+      {
+        "text": "show me ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "01547b7e-50cd-4e0f-a7ae-ee3abbf1f761",
+    "data": [
+      {
+        "text": "can you tell me where I am exactly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a946db34-db3d-4665-bbe1-baa1c5563edd",
+    "data": [
+      {
+        "text": "tell me where I am now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "64b812dc-5b3a-4e17-89a6-72eaae62f51e",
+    "data": [
+      {
+        "text": "what is our location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "323bfdc8-880c-4f26-9c4e-44570a35ca43",
+    "data": [
+      {
+        "text": "can you show my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70e1bb7d-e2e1-431f-b5bc-82e86cd54fd1",
+    "data": [
+      {
+        "text": "where is my current location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "62102021-ec04-485a-b5be-49e9ed3d9d36",
+    "data": [
+      {
+        "text": "am",
+        "userDefined": false
+      },
+      {
+        "text": " I lost",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6af8e28-41bf-4783-bbc7-4c59df45a661",
+    "data": [
+      {
+        "text": "can you ",
+        "userDefined": false
+      },
+      {
+        "text": "give",
+        "userDefined": true
+      },
+      {
+        "text": " me my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fe657232-652c-48c5-b623-c5b68205dfdd",
+    "data": [
+      {
+        "text": "my location now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ee0382d-0f61-44da-ad23-2138ba66e896",
+    "data": [
+      {
+        "text": "where am I now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "587fd623-6078-4185-9235-a578125918f7",
+    "data": [
+      {
+        "text": "what\u0027s",
+        "userDefined": false
+      },
+      {
+        "text": " my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ab604c7-d628-40da-9991-98b25a00bbe4",
+    "data": [
+      {
+        "text": "where ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "userDefined": false
+      },
+      {
+        "text": " we",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "564b546d-4a89-4ba4-a3cf-ac1834654dde",
+    "data": [
+      {
+        "text": "show my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0aaa1d4e-927e-43b9-8190-84b042de14f9",
+    "data": [
+      {
+        "text": "pinpoint my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fc754318-c9f8-4090-a6a8-2ea1f41c91f3",
+    "data": [
+      {
+        "text": "can you tell me where I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b1b4920c-97a2-45b5-ad91-4b63a2fdaace",
+    "data": [
+      {
+        "text": "where am I at now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f60d810-744e-40e3-a906-ab4dd2ac56c0",
+    "data": [
+      {
+        "text": "where am I located now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6b2a22a5-d01e-4e91-b890-ab76f72f50cc",
+    "data": [
+      {
+        "text": "where\u0027s my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3f084ef1-bf4b-4bc8-8304-af84e1af1c4a",
+    "data": [
+      {
+        "text": "do you know where I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5fec3ce2-7612-47dd-9a60-5ab61a37fa69",
+    "data": [
+      {
+        "text": "find my ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": true
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "006374d1-7ebe-4b57-b029-c26da334d307",
+    "data": [
+      {
+        "text": "where am I located ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ff9e6899-dee0-49f1-8db6-02eedaaa51b0",
+    "data": [
+      {
+        "text": "find my location now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3e25f678-45ae-452f-b24f-42306a9e9a70",
+    "data": [
+      {
+        "text": "show me where am I",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "54613ccf-5a48-4a1a-8fab-39d973c0c8be",
+    "data": [
+      {
+        "text": "show my location ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "userDefined": false
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "83cc648b-1406-4c3c-bf39-ba990b770bac",
+    "data": [
+      {
+        "text": "what is my ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": false
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "794b90ea-565d-478d-b41a-bee7868306cd",
+    "data": [
+      {
+        "text": "tell me my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "db9191b5-ea3e-4ef8-ab12-0c44445eadf2",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "current",
+        "userDefined": true
+      },
+      {
+        "text": " location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4b1e863a-3d62-418d-9957-7f19ed098fb0",
+    "data": [
+      {
+        "text": "locate me now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "15d72d42-a51f-4da9-9c79-833e956cbc63",
+    "data": [
+      {
+        "text": "can you pinpoint my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c52bac11-d793-4dd3-8801-1519be528cee",
+    "data": [
+      {
+        "text": "do you know where I am ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b85d8d79-3171-4f83-b1d7-6f4ec597939d",
+    "data": [
+      {
+        "text": "update my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "773ba7d3-1472-4744-bed3-6bd26744c425",
+    "data": [
+      {
+        "text": "can you tell me where I\u0027m at ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2132c352-ab6c-4736-a84f-c1f93377ac7f",
+    "data": [
+      {
+        "text": "please tell my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b20f3a0c-ed8f-40d7-95ec-a40d5ffe7eb7",
+    "data": [
+      {
+        "text": "where am I exactly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "309d6ec8-fd1a-46f6-a97d-ff029e453c60",
+    "data": [
+      {
+        "text": "where are we",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23482896-7168-4dce-b99e-e6afac2c25b3",
+    "data": [
+      {
+        "text": "where is I am right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

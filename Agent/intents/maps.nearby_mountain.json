@@ -1,0 +1,70 @@
+{
+  "id": "f0ef4303-3940-4fcb-bdfc-da3fb0fc115d",
+  "name": "maps.nearby_mountain",
+  "auto": true,
+  "contexts": [
+    "maps-search"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "maps.search",
+      "affectedContexts": [
+        {
+          "name": "maps-search",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1acb9a4f-8c4f-4905-bbe4-6494ed94479c",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Let me see what I can find.",
+            "I\u0027m not sure, but I can look it up for you.",
+            "Checking for nearby mountains now.",
+            "I\u0027ll check my database for mountain locations."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Let me check for nearby mountains."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

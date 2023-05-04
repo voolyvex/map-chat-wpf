@@ -1,0 +1,80 @@
+[
+  {
+    "id": "c96e7aec-1cf3-4b98-9182-9a9c9c411768",
+    "data": [
+      {
+        "text": "find bus stop nearby",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e930f1c-e99b-45fd-924e-79061b9e6fd7",
+    "data": [
+      {
+        "text": "can you give me a high five",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ef4029cc-b4d3-4bd6-8866-4b0d640f5d56",
+    "data": [
+      {
+        "text": "don\u0027t show me a map of the Philippines",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8b6247d4-5dd4-4f7b-821a-774bcb2b885c",
+    "data": [
+      {
+        "text": "don\u0027t find me on map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8b66c8d6-6434-4497-8602-568d83881fc6",
+    "data": [
+      {
+        "text": "find nearest cafe on map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c0127a72-5988-40a7-b0d5-9bb52b290869",
+    "data": [
+      {
+        "text": "tell me where I was yesterday",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
