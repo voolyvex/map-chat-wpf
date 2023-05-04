@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\map-chat-wpf"
   ],
-  "SelectedNode": "\\map-gpt-backend.sln",
+  "SelectedNode": "\\map-chat-wpf\\ChatBot.cs",
   "PreviewInSolutionExplorer": false
 }

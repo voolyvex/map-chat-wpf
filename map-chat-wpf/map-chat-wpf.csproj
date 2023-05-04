@@ -12,6 +12,7 @@
     <PackageReference Include="ChatGPT.Net" Version="2.0.0" />
     <PackageReference Include="Esri.ArcGISRuntime" Version="200.1.0" />
     <PackageReference Include="Esri.ArcGISRuntime.WPF" Version="200.1.0" />
+    <PackageReference Include="Google.Cloud.Dialogflow.V2" Version="4.9.0" />
   </ItemGroup>
 
 </Project>
