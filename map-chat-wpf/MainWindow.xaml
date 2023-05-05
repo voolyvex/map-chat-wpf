@@ -13,12 +13,18 @@
 	</Window.Resources>
 
 	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*" />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+
 		<esri:MapView x:Name="MainMapView"
-                      Map="{Binding Map, Source={StaticResource MapViewModel}}" />
+                      Map="{Binding Map, Source={StaticResource MapViewModel}}"
+                      Grid.Row="0" />
+
+		<TextBox Name="MessageInput"
+                 Text="{Binding Path=MessageText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 KeyDown="OnKeyDownHandler"
+                 Grid.Row="1" />
 	</Grid>
-
-	<TextBox Name="MessageInput"
-             Text="{Binding Path=MessageText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-             KeyDown="OnKeyDownHandler" />
-
 </Window>
