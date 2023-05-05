@@ -6,16 +6,23 @@
         xmlns:local="clr-namespace:map_chat_wpf"
         xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013"
         mc:Ignorable="d"
-        Title="MapGPT" Height="450" Width="800">
+        Title="MapGPT" Height="450" Width="800"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}">
 
-    <Window.Resources>
-        <local:MapViewModel x:Key="MapViewModel" />
-    </Window.Resources>
-    
-    <Grid>
+	<Window.Resources>
+		<local:MapViewModel x:Key="MapViewModel" />
+	</Window.Resources>
 
-        <esri:MapView x:Name="MainMapView"
-                      Map="{Binding Map, Source={StaticResource MapViewModel}}" />
+	<Grid>
 
-    </Grid>
+		<esri:MapView x:Name="MainMapView"
+                      Map="{Binding Map, Source={StaticResource MapViewModel}}"
+					  Grid.Row="0"/>
+
+	<TextBox Name="MessageInput"
+             Text="{Binding Path=MessageText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+             KeyDown="OnKeyDownHandler"
+			 Grid.Row="1"/>
+	</Grid>
+
 </Window>
