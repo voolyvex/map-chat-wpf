@@ -40,3 +40,5 @@ Desktop.ini
 
 # app settings
 map-chat-wpf/appsettings.json
+
+/json
