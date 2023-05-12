@@ -5,9 +5,9 @@ namespace map_chat_wpf.Services
 {
     public class MapPointsBuilder
     {
-        public List<Point> BuildMapPoints(string userInput)
+        public List<MapPoint> BuildMapPoints(string userInput)
         {
-            List<Point> points = new List<Point>();
+            List<MapPoint> points = new List<MapPoint>();
 
             // Parse the user input to extract point coordinates and create Point objects
             // You can add your own implementation here to parse the user input in the way you need
@@ -19,7 +19,7 @@ namespace map_chat_wpf.Services
                 double x, y;
                 if (values.Length == 2 && double.TryParse(values[0], out x) && double.TryParse(values[1], out y))
                 {
-                    points.Add(new Point(x, y, SpatialReferences.Wgs84));
+                    points.Add(new MapPoint(x, y, SpatialReferences.Wgs84));
                 }
             }
 

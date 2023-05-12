@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\map-chat-wpf"
+    "\\map-chat-wpf",
+    "\\map-chat-wpf\\Controllers"
   ],
+  "SelectedNode": "\\map-chat-wpf\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }

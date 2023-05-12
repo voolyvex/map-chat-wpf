@@ -5,18 +5,18 @@ namespace map_chat_wpf
     public class ChatBot
     {
         private readonly NaturalLanguageService _naturalLanguageService;
-        private string _message;
+        private string? _message;
 
-        public event EventHandler<MessageEventArgs> OnMessageReceived;
-        public event EventHandler<MessageEventArgs> OnResponseReceived;
+        public event EventHandler<MessageEventArgs>? OnMessageReceived;
+        public event EventHandler<MessageEventArgs>? OnResponseReceived;
 
         public ChatBot(NaturalLanguageService naturalLanguageService)
         {
             _naturalLanguageService = naturalLanguageService;
-            _message = "";
+            _message = null;
         }
 
-        public string Message
+        public string? Message
         {
             get { return _message; }
             set { _message = value; }
@@ -28,26 +28,26 @@ namespace map_chat_wpf
             OnMessageReceived += HandleMessageReceived;
         }
 
-        public void SendMessage(string message)
+        public void SendMessage(string? message)
         {
             // Process the message with the natural language service.
-            string response = _naturalLanguageService.ProcessMessage(message);
+            string? response = _naturalLanguageService.ProcessMessage(message);
 
             // Take any necessary actions based on the response.
-            if (response.Contains("show points"))
+            if (response != null && response.Contains("show points"))
             {
                 // Update the map display to show relevant points.
                 UpdateMapDisplay();
             }
 
             // Raise an event to notify any subscribers of the response.
-            OnResponseReceived(this, new MessageEventArgs(response));
+            OnResponseReceived?.Invoke(this, new MessageEventArgs(response));
         }
 
-        private void HandleMessageReceived(object sender, MessageEventArgs eventArgs)
+        private void HandleMessageReceived(object? sender, MessageEventArgs? eventArgs)
         {
             // Get the message from the user.
-            string message = eventArgs.Message;
+            string? message = eventArgs?.Message;
 
             // Send the message to the natural language service.
             SendMessage(message);
@@ -61,11 +61,11 @@ namespace map_chat_wpf
 
     public class MessageEventArgs : EventArgs
     {
-        public MessageEventArgs(string message)
+        public MessageEventArgs(string? message)
         {
             Message = message;
         }
 
-        public string Message { get; set; }
+        public string? Message { get; set; }
     }
 }

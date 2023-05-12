@@ -1,13 +1,9 @@
-﻿using System.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using System.Windows;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Configuration.UserSecrets;
 
 namespace map_chat_wpf
 {
-    /// <summary>
-    /// Displays a map
-    /// </summary>
+
     public partial class App : Application
     {
         private IConfiguration Configuration;
@@ -15,7 +11,7 @@ namespace map_chat_wpf
         protected override void OnStartup(StartupEventArgs e)
         {
             var builder = new ConfigurationBuilder()
-                .AddUserSecrets<Startup>();
+                .AddUserSecrets();
             Configuration = builder.Build();
 
             var apiKey = Configuration["ARCGIS_API_Key"];

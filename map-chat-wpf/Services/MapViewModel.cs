@@ -1,4 +1,5 @@
-﻿using Esri.ArcGISRuntime.Mapping;
+﻿using Esri.ArcGISRuntime.Geometry;
+using Esri.ArcGISRuntime.Mapping;
 using Esri.ArcGISRuntime.Symbology;
 using Esri.ArcGISRuntime.UI;
 using System.Collections.Generic;
@@ -46,10 +47,10 @@ namespace map_chat_wpf.Services
 
             // Build the list of points from the user input using the MapPointsBuilder class.
             MapPointsBuilder builder = new MapPointsBuilder();
-            List<Point> points = builder.BuildMapPoints(userInput);
+            List<MapPoint> points = builder.BuildMapPoints(userInput);
 
             // Add a graphic for each point.
-            foreach (Point point in points)
+            foreach (MapPoint point in points)
             {
                 // Create a symbol for the point.
                 SimpleMarkerSymbol symbol = new SimpleMarkerSymbol(SimpleMarkerSymbolStyle.Circle, System.Drawing.Color.Red, 10);
@@ -61,8 +62,8 @@ namespace map_chat_wpf.Services
                 overlay.Graphics.Add(graphic);
             }
 
-            // Add the overlay to the map's operational layers.
-            Map.OperationalLayers.Add(overlay);
+            // Wrap the graphics overlay in a layer and add it to the map's operational layers.
+            Map?.OperationalLayers.Add(new GraphicsOverlayLayer(overlay));
         }
 
     }

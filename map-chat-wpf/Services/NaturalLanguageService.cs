@@ -1,4 +1,3 @@
-using System;
 using Google.Cloud.Dialogflow.V2;
 
 namespace map_chat_wpf
