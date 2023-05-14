@@ -3,29 +3,30 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:map_chat_wpf"
+        xmlns:local="clr-namespace:map_chat_wpf.Services"
         xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013"
         mc:Ignorable="d"
         Title="MapGPT" Height="450" Width="800">
 
-	<Window.Resources>
-		<local:MapViewModel x:Key="MapViewModel" />
-	</Window.Resources>
+    <Window.Resources>
+        <local:MapViewModel x:Key="MapViewModel" />
+    </Window.Resources>
 
-	<Grid>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="*" />
-			<RowDefinition Height="Auto" />
-		</Grid.RowDefinitions>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
 
-		<esri:MapView x:Name="MainMapView"
+        <esri:MapView x:Name="mapView"
                       Map="{Binding Map, Source={StaticResource MapViewModel}}"
+                      GraphicsOverlays="{Binding GraphicsOverlays, Source={StaticResource MapViewModel}}"
                       Grid.Row="0" />
 
-		<TextBox Name="MessageInput"
+        <TextBox Name="MessageInput"
                  Text="{Binding Path=MessageText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                  KeyDown="OnKeyDownHandler"
                  Grid.Row="1" />
-	</Grid>
+    </Grid>
 
 </Window>
