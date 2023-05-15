@@ -10,7 +10,7 @@ namespace map_chat_wpf
         protected override void OnStartup(StartupEventArgs e)
         {
             var builder = new ConfigurationBuilder();
-            builder.AddUserSecrets<Startup>();
+            builder.AddUserSecrets<StartupEventArgs>();
             Configuration = builder.Build();
 
             var apiKey = Configuration["ARCGIS_API_Key"];

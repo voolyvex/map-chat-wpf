@@ -1,5 +1,7 @@
 ﻿using Esri.ArcGISRuntime.Geometry;
 using Esri.ArcGISRuntime.Mapping;
+using Esri.ArcGISRuntime.UI.Controls;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Input;
@@ -8,9 +10,30 @@ namespace map_chat_wpf
 {
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
-#pragma warning disable CS8612 // Nullability of reference types in type doesn't match implicitly implemented member.
+        public static readonly DependencyProperty MainMapViewProperty =
+            DependencyProperty.Register(nameof(MainMapView), typeof(MapView), typeof(MainWindow), new PropertyMetadata(null));
+
+        public MapView MainMapView
+        {
+            get { return (MapView)GetValue(MainMapViewProperty); }
+            set { SetValue(MainMapViewProperty, value); }
+        }
+
+        private readonly MapViewModel _viewModel;
+
+        public MainWindow()
+        {
+            MapPointsBuilder builder = new MapPointsBuilder();
+            List<MapPoint> points = builder.BuildMapPoints("user input goes here");
+
+            _viewModel = new MapViewModel(points);
+            DataContext = _viewModel;
+
+            MapPoint mapCenterPoint = new MapPoint(-118.805, 34.027, SpatialReferences.Wgs84);
+            MainMapView.SetViewpoint(new Viewpoint(mapCenterPoint, 100000));
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
-#pragma warning restore CS8612 // Nullability of reference types in type doesn't match implicitly implemented member.
 
         private string _messageText;
 
@@ -22,18 +45,6 @@ namespace map_chat_wpf
                 _messageText = value;
                 NotifyPropertyChanged(nameof(MessageText));
             }
-        }
-
-#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
-        public MainWindow()
-#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
-        {
-            InitializeComponent();
-
-            DataContext = this;
-
-            MapPoint mapCenterPoint = new MapPoint(-118.805, 34.027, SpatialReferences.Wgs84);
-            MainMapView.SetViewpoint(new Viewpoint(mapCenterPoint, 100000));
         }
 
         private void NotifyPropertyChanged(string propertyName)

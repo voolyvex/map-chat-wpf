@@ -1,7 +1,7 @@
 ﻿using Esri.ArcGISRuntime.Geometry;
 using System.Collections.Generic;
 
-namespace map_chat_wpf.Services
+namespace map_chat_wpf
 {
     public class MapPointsBuilder
     {

@@ -8,9 +8,9 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 
-namespace map_chat_wpf.Services
+namespace map_chat_wpf
 {
-    internal class MapViewModel : INotifyPropertyChanged
+    public class MapViewModel : INotifyPropertyChanged
     {
         private readonly Map _map;
         private readonly GraphicsOverlayCollection _graphicsOverlays;
@@ -18,12 +18,12 @@ namespace map_chat_wpf.Services
         public MapViewModel(List<MapPoint> points)
         {
             _map = new Map(BasemapStyle.ArcGISStreets);
-            var mapView = new MapView { Map = _map };
+            MapView MainMapView = new MapView { Map = _map };
 
             // Use the first point in the list as the initial location.
             var initialLocation = points.FirstOrDefault() ?? new MapPoint(-107.8801, 37.2753, SpatialReferences.Wgs84);
             var initialViewpoint = new Viewpoint(initialLocation, scale: 50000);
-            mapView.SetViewpointAsync(initialViewpoint);
+            MainMapView.SetViewpointAsync(initialViewpoint);
 
             _graphicsOverlays = new GraphicsOverlayCollection();
             var graphicsOverlay = new GraphicsOverlay();
@@ -35,6 +35,8 @@ namespace map_chat_wpf.Services
             OnPropertyChanged(nameof(GraphicsOverlays));
         }
 
+  
+
         public event PropertyChangedEventHandler? PropertyChanged;
 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
@@ -42,23 +44,27 @@ namespace map_chat_wpf.Services
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public Map Map => _map;
+        public Map Map => Map1;
 
         public GraphicsOverlayCollection GraphicsOverlays
         {
-            get { return _graphicsOverlays; }
+            get { return GraphicsOverlays1; }
             set
             {
                 if (value?.FirstOrDefault() != null)
                 {
-                    _graphicsOverlays.Clear();
-                    _graphicsOverlays.Add(value.FirstOrDefault());
+                    GraphicsOverlays1.Clear();
+                    GraphicsOverlays1.Add(value.FirstOrDefault());
                 }
 
                 // Raise the PropertyChanged event for the GraphicsOverlays property
                 OnPropertyChanged(nameof(GraphicsOverlays));
             }
         }
+
+        public Map Map1 => _map;
+
+        public GraphicsOverlayCollection GraphicsOverlays1 => _graphicsOverlays;
 
         public void UpdateMapDisplay(string userInput)
         {
@@ -86,7 +92,7 @@ namespace map_chat_wpf.Services
                     var graphic = new Graphic(point, symbol);
 
                     // Add the graphic to the overlay.
-                    _graphicsOverlays.FirstOrDefault()?.Graphics.Add(graphic);
+                    GraphicsOverlays1.FirstOrDefault()?.Graphics.Add(graphic);
                 }
             }
         }
